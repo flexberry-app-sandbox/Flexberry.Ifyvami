@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Ifyvami",
+  "applicationTitle": "Ifyvami",
+  "items": [
+    {
+      "link": null,
+      "menuName": "ifyvami",
+      "caption": "Ifyvami",
+      "title": "Ifyvami",
+      "children": [
+        {
+          "link": "i-i-s-ifyvami-транспсрд-l",
+          "menuName": null,
+          "caption": "Транспсрд",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-ifyvami-тип-т-п-l",
+          "menuName": null,
+          "caption": "Тип ТП",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

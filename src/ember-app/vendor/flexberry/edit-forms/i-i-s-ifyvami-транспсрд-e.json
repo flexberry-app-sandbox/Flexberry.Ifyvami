@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "типТП",
+      "projection": "типТПL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Транспсрд E",
+  "name": "IISIfyvamiтранспсрдE",
+  "className": "транспсрдE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ifyvami-транспсрд",
+      "modelProjection": "транспрдE"
+    }
+  ]
+}

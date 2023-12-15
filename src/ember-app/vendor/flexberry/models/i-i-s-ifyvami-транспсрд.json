@@ -1,0 +1,169 @@
+﻿{
+  "name": "IISIfyvamiтранспсрд",
+  "modelName": "i-i-s-ifyvami-транспсрд",
+  "className": "транспсрд",
+  "nameSpace": "IIS.Ifyvami",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "код",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "типТП",
+      "relatedTo": "i-i-s-ifyvami-тип-т-п",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "транспрдE",
+      "modelName": "i-i-s-ifyvami-транспсрд",
+      "attrs": [
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "типТП",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "тип",
+              "caption": "ТИптп",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "default",
+          "caption": "Типтп",
+          "name": "типТП",
+          "relatedTo": "i-i-s-ifyvami-тип-т-п",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "транспсрдE",
+      "modelName": "i-i-s-ifyvami-транспсрд",
+      "attrs": [
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Тип",
+          "lookupValueField": "тип",
+          "relationName": "типТП",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "тип",
+              "caption": "Тип",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Тип ТП",
+          "name": "типТП",
+          "relatedTo": "i-i-s-ifyvami-тип-т-п",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "транспсрдL",
+      "modelName": "i-i-s-ifyvami-транспсрд",
+      "attrs": [
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "типТП",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "тип",
+              "caption": "Типтп",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Типтп",
+          "name": "типТП",
+          "relatedTo": "i-i-s-ifyvami-тип-т-п",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

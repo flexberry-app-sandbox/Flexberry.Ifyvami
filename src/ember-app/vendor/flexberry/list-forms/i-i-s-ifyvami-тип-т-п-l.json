@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ifyvami-тип-т-п-e",
+  "editForm": "i-i-s-ifyvami-тип-т-п-e",
+  "external": false,
+  "caption": "Тип ТПL",
+  "name": "IISIfyvamiтипТПL",
+  "className": "типТПL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ifyvami-тип-т-п",
+      "modelProjection": "типТПL"
+    }
+  ]
+}

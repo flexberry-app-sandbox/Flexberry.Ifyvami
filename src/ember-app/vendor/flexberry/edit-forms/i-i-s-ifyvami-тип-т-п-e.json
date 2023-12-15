@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "ТипТП",
+  "name": "IISIfyvamiтипТПE",
+  "className": "типТПE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ifyvami-тип-т-п",
+      "modelProjection": "типТПE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-ifyvami-транспсрд-e",
+  "editForm": "i-i-s-ifyvami-транспсрд-e",
+  "external": false,
+  "caption": "Транспсрд L",
+  "name": "IISIfyvamiтранспсрдL",
+  "className": "транспсрдL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-ifyvami-транспсрд",
+      "modelProjection": "транспсрдL"
+    }
+  ]
+}
